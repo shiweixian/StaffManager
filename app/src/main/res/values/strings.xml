@@ -3,4 +3,9 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="main_check_staff">查看员工</string>
+    <string name="main_add_staff">添加员工</string>
+    <string name="main_check_mine">查看我的</string>
+    <string name="main_logout">退 出 当 前 账 号</string>
 </resources>
