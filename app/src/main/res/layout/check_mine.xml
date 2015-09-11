@@ -10,6 +10,15 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"
+            android:text="@string/check_mine_tip_text"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:textSize="25sp" />
         <ImageButton
             android:id="@+id/check_mine_quit_bt"
             android:layout_width="50dp"

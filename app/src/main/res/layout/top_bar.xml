@@ -14,6 +14,7 @@
         android:padding="5dp"
         android:text="@string/check_staff_title"
         android:textColor="@color/black"
+        android:layout_centerVertical="true"
         android:textSize="25sp" />
 
     <ImageButton

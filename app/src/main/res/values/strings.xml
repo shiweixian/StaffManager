@@ -27,9 +27,10 @@
 
     <!--查看员工界面-->
     <string name="action_search">查找</string>
-    <string name="check_staff_title">查看员工:</string>
+    <string name="check_staff_title">查看员工</string>
     <string name="check_staff_detail_bt_text">详细内容</string>
     <string name="staff_detail_modify_salary_bt_text">修改工资</string>
+    <string name="check_mine_tip_text">我的信息</string>
 
     <!--添加员工界面-->
     <string name="add_staff_name_tip_text">添 加 员 工</string>
@@ -48,4 +49,10 @@
     <string name="delete_staff_tip_text">删 除 员 工</string>
     <string name="delete_staff_id_edit_hint">请输入员工的身份证号</string>
     <string name="delete_staff_tel_edit_hint">请输入员工的手机号</string>
+
+    <!--发布/接收信息公告等-->
+    <string name="publish_info_tip_text">发 布 信 息</string>
+    <string name="publish_info_edit_hint">请在这里写下您要发布的信息</string>
+    <string name="publish_info_confirm_bt_text">发    布</string>
+
 </resources>
