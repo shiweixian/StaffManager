@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yellow_green">#ADFF2F</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="clear">#00000000</color>
+    <color name="green">#C0FF3E</color>
+    <color name="white_gray">#EDEDED</color>
+    <color name="blue">#0000FF</color>
+    <color name="purple">#562e3d</color>
+    <color name="light_purple">#957c81</color>
+
+    <color name="share_thought_bt_inner">#dfd9d0</color>
+    <color name="share_thought_bt_outer">#562e3d</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+    <color name="main_color">#e3dada</color>
+</resources>

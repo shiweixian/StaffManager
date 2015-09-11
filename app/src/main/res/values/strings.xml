@@ -1,11 +1,51 @@
 <resources>
-    <string name="app_name">StaffManager</string>
+    <string name="app_name">华夏理财</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <!-- 登录界面-->
+    <string name="login_username_hint">请输入您的手机号</string>
+    <string name="login_password_hint">默认密码为身份证后六位</string>
+    <string name="login_login_text">登       录</string>
+    <string name="login_forget_password_text">修 改 密 码</string>
+    <!--修改密码界面-->
+    <string name="fix_password_tip_text">修 改 密 码</string>
+    <string name="fix_password_id_hint">请输入您的身份证号</string>
+    <string name="fix_password_tel_hint">请输入您的手机号</string>
+    <string name="fix_password_pwd_hint">请输入新密码</string>
+    <string name="fix_password_pwd_cn_hint">请输入再次输入密码</string>
+    <string name="fix_password_confirm_bt_text">确   定</string>
+    <string name="fix_password_cancel_bt_text">返    回</string>
+
+    <!--主界面-->
     <string name="main_check_staff">查看员工</string>
     <string name="main_add_staff">添加员工</string>
+    <string name="main_delete_staff">删除员工</string>
     <string name="main_check_mine">查看我的</string>
     <string name="main_logout">退 出 当 前 账 号</string>
+
+    <!--查看员工界面-->
+    <string name="action_search">查找</string>
+    <string name="check_staff_title">查看员工:</string>
+    <string name="check_staff_detail_bt_text">详细内容</string>
+    <string name="staff_detail_modify_salary_bt_text">修改工资</string>
+
+    <!--添加员工界面-->
+    <string name="add_staff_name_tip_text">添 加 员 工</string>
+    <string name="add_staff_name_text">姓名:</string>
+    <string name="add_staff_name_edit_hint">请 填 写 姓 名</string>
+    <string name="add_staff_identity_text">身份证号:</string>
+    <string name="add_staff_identity_edit_hint">请 填 写 身 份 证 号</string>
+    <string name="add_staff_tel_text">电话:</string>
+    <string name="add_staff_tel_edit_hint">请 填 写 电 话 号 码</string>
+    <string name="add_staff_salary_text">工资(元):</string>
+    <string name="add_staff_salary_edit_hint">请 填 写 工 资</string>
+    <string name="add_staff_upload_bt_text">提    交</string>
+    <string name="add_staff_cancel_bt_text">返    回</string>
+
+    <!--删除员工-->
+    <string name="delete_staff_tip_text">删 除 员 工</string>
+    <string name="delete_staff_id_edit_hint">请输入员工的身份证号</string>
+    <string name="delete_staff_tel_edit_hint">请输入员工的手机号</string>
 </resources>

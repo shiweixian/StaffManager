@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_color"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/add_staff_name_tip_text"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/add_staff_name_text"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <com.bestcode95.staffmanager.utils.MyEditText
+        android:id="@+id/add_staff_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="2dp"
+        android:background="@null"
+        android:hint="@string/add_staff_name_edit_hint"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/add_staff_identity_text"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <com.bestcode95.staffmanager.utils.MyEditText
+        android:id="@+id/add_staff_identity_edit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="2dp"
+        android:background="@null"
+        android:hint="@string/add_staff_identity_edit_hint"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/add_staff_tel_text"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <com.bestcode95.staffmanager.utils.MyEditText
+        android:id="@+id/add_staff_tel_edit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="2dp"
+        android:background="@null"
+        android:hint="@string/add_staff_tel_edit_hint"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/add_staff_salary_text"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <com.bestcode95.staffmanager.utils.MyEditText
+        android:id="@+id/add_staff_salary_edit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="2dp"
+        android:background="@null"
+        android:hint="@string/add_staff_salary_edit_hint"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/add_staff_upload_bt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/add_staff_upload_bt_text"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/add_staff_cancel_bt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/login_forgetpwd_bt_bg"
+        android:text="@string/add_staff_cancel_bt_text"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+</LinearLayout>

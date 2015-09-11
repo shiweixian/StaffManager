@@ -2,52 +2,137 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/activity_vertical_margin"
+    android:background="@color/main_color"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
-   <Button
-       android:layout_marginTop="20dp"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="@string/main_check_staff"
-       android:layout_gravity="center_horizontal"
-       />
+    <Button
+        android:id="@+id/main_check_staff_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/main_check_staff"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp">
+        android:layout_marginTop="20dp">
 
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
 
-    <RelativeLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        >
-        <Button
-            android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/main_add_staff_bt"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_round_bg"
+                android:text="@string/main_add_staff"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@string/main_add_staff"
-            android:layout_alignParentRight="true"
-            />
-    </RelativeLayout>
-    <RelativeLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        >
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/main_check_mine"
-            />
-    </RelativeLayout>
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/main_delete_staff_bt"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_round_bg"
+                android:text="@string/main_delete_staff"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
 
     </LinearLayout>
-    <Button
-        android:layout_marginTop="30dp"
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/main_logout"/>
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/main_check_mine_bt"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_round_bg"
+                android:text="@string/main_check_mine"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/main_quit_account_bt"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_round_bg"
+                android:text="@string/main_logout"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!--<Button-->
+    <!--android:layout_marginTop="15dp"-->
+    <!--android:id="@+id/main_check_mine_bt"-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/button_bg"-->
+    <!--android:textSize="18sp"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:text="@string/main_check_mine" />-->
+
+    <!--<Button-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_marginStart="10dp"-->
+    <!--android:layout_marginRight="10dp"-->
+    <!--android:layout_marginEnd="10dp"-->
+    <!--android:id="@+id/main_quit_account_bt"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:textSize="18sp"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:background="@drawable/button_bg"-->
+    <!--android:text="@string/main_logout" />-->
 
 </LinearLayout>
